@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "eu/midnightdust/core/mixin/MixinOptionsScreen": {
+      "m_7856_()V": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_7856_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "eu/midnightdust/core/mixin/MixinOptionsScreen": {
+        "m_7856_()V": "Lnet/minecraft/client/gui/screens/OptionsScreen;m_7856_()V"
+      }
+    }
+  }
+}

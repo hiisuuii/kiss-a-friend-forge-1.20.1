@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "ing.slonk.kiss.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "kiss.refmap.json",
+	"minVersion": "0.8",
+	"mixins": [
+		"SneakDetect"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

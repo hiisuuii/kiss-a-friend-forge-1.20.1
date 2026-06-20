@@ -1,0 +1,38 @@
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}" #mandatory
+license="${mod_license}"
+
+[[mods]] #mandatory
+modId="${mod_id}" #mandatory
+version="${mod_version}" #mandatory
+displayName="${mod_name}" #mandatory
+logoFile="assets/kiss_a_friend/icon.png" #optional
+authors="${mod_authors}" #optional
+displayURL="https://codeberg.org/slonk/kiss-a-friend" #optional
+description='''${mod_description}'''
+
+# Mixin configuration is loaded by Forge from mods.toml.
+[[mixins]]
+config="kiss.mixins.json"
+
+[[dependencies.${mod_id}]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# MidnightLib provides the configuration screen and config handling.
+[[dependencies.${mod_id}]]
+    modId="midnightlib"
+    mandatory=true
+    versionRange="[1.9.2,)"
+    ordering="AFTER"
+    side="BOTH"

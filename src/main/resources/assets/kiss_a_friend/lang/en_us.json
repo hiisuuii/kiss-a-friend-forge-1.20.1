@@ -1,0 +1,7 @@
+{
+	"kiss_a_friend.midnightconfig.title": "Kiss a Friend!",
+	"kiss_a_friend.midnightconfig.category.general": "General",
+	"kiss_a_friend.midnightconfig.kissRange": "Kiss Range",
+	"kiss_a_friend.midnightconfig.kissMaxAngle": "Kiss Max Angle",
+	"kiss_a_friend.midnightconfig.kissMaxAngle.tooltip": "(in degrees)"
+}
